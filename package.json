@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "webdriverio": "^9.4.5"
+  },
+  "name": "wdio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@wdio/cli": "^9.4.5",
+    "@wdio/local-runner": "^9.4.5",
+    "@wdio/mocha-framework": "^9.4.4",
+    "@wdio/spec-reporter": "^9.4.4",
+    "wdio-teamcity-reporter": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
