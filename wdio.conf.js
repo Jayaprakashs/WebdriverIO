@@ -126,9 +126,9 @@ exports.config = {
     reporters: ['spec',  [
         'teamcity',
         {
-          captureStandardOutput: false, // optional
+          captureStandardOutput: true, // optional
           flowId: true, // optional
-          message: '[title]', // optional
+          message: 'chrome', // optional
         }
       ]
       ],
